@@ -36,9 +36,16 @@ Baseado no layout ([Figma](https://www.figma.com/file/U6mV5uN8OtSMaVZcWcQc9g/Tes
 
 NO COMMAND
 1. Rodar npm install, versão recomendada do node 10.23.3. Caso tenha baixado o arquivo do GitHub.
+2. Ou usar o arquivo do LocalWP que contem toda a estrutura do site.
 
 NO WP
 1. Instalar o Advanced Custom Fields PRO (acompanha arquivo zipado no e-mail);
 2. Preencher as informações OU usar o arquivo de recuperação ou
 3. Fazer o uso do arquivo do LOCAL enviado no e-mail;
 4. Preencher as opções do tema no back-end do WordPress.
+
+## TODO
+
+[ ] Correção do rodapé (alinhamento)
+[ ] Correção do menu do rodapé (repetido)
+[ ] Correção do slide de depoimentos (cortando a segunda div)
