@@ -46,6 +46,6 @@ NO WP
 
 ## TODO
 
-[ ] Correção do rodapé (alinhamento)
-[ ] Correção do menu do rodapé (repetido)
-[ ] Correção do slide de depoimentos (cortando a segunda div)
+- [ ] Correção do rodapé (alinhamento)
+- [ ] Correção do menu do rodapé (repetido)
+- [ ] Correção do slide de depoimentos (cortando a segunda div)
