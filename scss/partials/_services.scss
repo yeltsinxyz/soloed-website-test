@@ -1,0 +1,52 @@
+#servicos {
+    background: #E5E5E5;
+    padding: 160px 0px;
+    border-bottom: solid 2px;
+    border-image-slice: 4;
+    border-image-source: linear-gradient(to left, #6C63FF, #CFCCE0);
+
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .servicos-title {
+        margin-bottom: 75px;
+        padding: 0px 200px;
+
+        @include breakpoint(medium down) {
+            padding: 0px;
+        }
+
+    }
+
+    .service-box {
+        text-align: center;
+        background: #E5E5E5;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+        padding: 58px 0px;
+        border-bottom: solid 4px #6C63FF;
+        transition: all 0.5s 0s ease-in-out;
+
+        &:hover {
+            background-color: #FFF;
+            box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.18);
+        }
+
+        h3 {
+            font-weight: 700;
+            font-size: 24px;
+            color: #2F2E41;
+        }
+
+        p {
+            padding: 0px 48px;
+            font-size: 16px;
+        }
+
+    }
+
+}

@@ -62,3 +62,12 @@
 // Motion UI
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+// Imports
+@import 'partials/geral';
+@import 'partials/header';
+@import 'partials/main';
+@import 'partials/about';
+@import 'partials/services';
+@import 'partials/testimonials';
+@import 'partials/footer';

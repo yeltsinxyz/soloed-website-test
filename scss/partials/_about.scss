@@ -1,0 +1,22 @@
+#sobre {
+
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    border-image-slice: 1 4;
+    border-image-source: linear-gradient(to left, #6C63FF, #CFCCE0);
+    padding: 160px 0px;
+    background: url(../img/bg-sobre.png) no-repeat left center;
+
+    @include breakpoint (xxxlarge) {
+        background: url(../img/bg-sobre.png) no-repeat 560px center;
+    }
+
+    @include breakpoint (large) {
+        background: url(../img/bg-sobre.png) no-repeat -180px center;
+    }
+
+    @include breakpoint(medium down) {
+        background: none;
+    }
+
+}

@@ -1,47 +1,41 @@
-# Foundation for Sites Template
+# Desafio SoloED - Wordpress
 
-**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
+Neste desafio, vamos avaliar seus conhecimentos em HTML, CSS, Javascript e a construção de temas no Wordpress. Queremos que você desenvolva uma pequena Landing Page seguindos os padrões do nosso layout. Aproveite para nos mostrar todo o seu conhecimento em relação a construção de temas editáveis no Wordpress.
 
-This is the basic starter project for [Foundation for Sites 6](http://foundation.zurb.com/sites). It includes a Sass compiler and a starter HTML file for you.
+# Instruções
 
-## Installation
+- Clone este projeto em seu ambiente
+- Desenvolva a aplicação seguindo as instruções abaixo
+- Ao finalizar o desafio, suba para um repositório em seu Github e responda o e-mail com o link.
 
-To use this template, your computer needs:
+## Frontend
 
-- [NodeJS](https://nodejs.org/en/) (0.12 or greater)
-- [Git](https://git-scm.com/)
+Baseado no layout ([Figma](https://www.figma.com/file/U6mV5uN8OtSMaVZcWcQc9g/Teste_soloed?node-id=0%3A1)) sua tarefa é construir o frontend da nossa Landing Page seguindo os padrões de design (fontes, espaçamentos, cores e etc..).
 
-This template can be installed with the Foundation CLI, or downloaded and set up manually.
+#### User Stories
 
-### Using the CLI
+- [x] O usuário pode editar a imagem e os textos da primeira sessão.
+- [x] O usuário pode editar o texto do "Sobre Nós"
+- [x] O usuário pode adicionar, editar e excluir os "Serviços/Qualidades"
+- [x] O usuário pode adicionar, editar e excluir os "Depoimentos"
+- [ ] O usuário pode adicionar e remover itens dos menu principal e do menu no rodapé
+- [x] O usuário pode adicionar e remover os links das redes sociais
+- [x] O usuário pode editar o telefone e o email do rodapé
+- [ ] O formulário de Newsletter deve gravar os emails informados com validação de formato e campo em branco.
 
-Install the Foundation CLI with this command:
+#### Pré-requisitos
 
-```bash
-npm install foundation-cli --global
-```
+- Construir a aplicação utilizando as boas práticas na construção do tema.
+- Comprometimento com o design da página
 
-Use this command to set up a blank Foundation for Sites project with this template:
+#### Diferenciais
 
-```bash
-foundation new --framework sites --template basic
-```
+- Demonstrar conhecimento em CSS e Javascript.
 
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
+# SoloED_Landing Page
 
-### Manual Setup
+O primeiro passo é instalar o plugin Advanced Custom Fields PRO (acompanha o arquivo zipado no e-mail).
 
-To manually set up the template, first download it with Git:
+Em seguida, criar uma página Home, e definir como página inicial em Configurações.
 
-```bash
-git clone https://github.com/zurb/foundation-sites-template projectname
-```
-
-Then open the folder in your command line, and install the needed dependencies:
-
-```bash
-cd projectname
-npm install
-```
-
-Finally, run `npm start` to run the Sass compiler. It will re-run every time you save a Sass file.
+Depois é só preencher os campos com as informações desejadas. Ou usar o arquivo de backup fornecido junto com o .zip. 
