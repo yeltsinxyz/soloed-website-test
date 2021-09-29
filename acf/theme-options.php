@@ -205,6 +205,25 @@
                                 ),
                             ),
                         ),
+                        array(
+                            'key' => 'field_6154c3cecbe23',
+                            'label' => 'Newsletter',
+                            'name' => 'newsletter',
+                            'type' => 'text',
+                            'instructions' => 'Insira o shortcode do Contact Forms 7',
+                            'required' => 0,
+                            'conditional_logic' => 0,
+                            'wrapper' => array(
+                                'width' => '',
+                                'class' => '',
+                                'id' => '',
+                            ),
+                            'default_value' => '',
+                            'placeholder' => '',
+                            'prepend' => '',
+                            'append' => '',
+                            'maxlength' => '',
+                        ),
                     ),
                     'location' => array(
                         array(
@@ -232,4 +251,4 @@
                     'acfe_note' => '',
                 ));
                 
-                endif;			
+                endif;		

@@ -21,22 +21,61 @@
                 </div>
                 <?php endif; ?>
 
-                <div class="cell small-12 large-4">
+                <div class="cell small-12 large-4 menu-footer">
 
                     <h4>Links</h4>
 
-                    <ul class="menu">
-                        <li>Produtos</li>
-                        <li>Informações</li>
-                        <li>Quem Somos</li>
-                        <li>Preços</li>
-                    </ul>
+                    <div class="grid-x grid-margin-x">
+
+                        <div class="cell small-6">
+
+                            <?php
+                            wp_nav_menu( array(
+                                'menu'  =>  'primaryfooter',
+                                'menu_class'    =>  'menu vertical',
+                                'container' => false,
+                            ) );
+                            ?>
+
+                        </div>
+
+                        <div class="cell small-6">
+
+                            <?php
+                            wp_nav_menu( array(
+                                'menu'  =>  'secondaryfooter',
+                                'menu_class'    =>  'menu vertical',
+                                'container' => false,
+                            ) );
+                            ?>
+                            
+                        </div>
+
+                    </div>
 
                 </div>
 
                 <div class="cell small-12 large-4">
 
                     <h4>Newsletter</h4>
+
+                    <?php
+                    $newsletter = get_field('newsletter', 'option');
+                    if( $newsletter ) :
+                    ?>
+
+                    <form data-abide action="https://formsubmit.co/<?php echo $newsletter; ?>" method="post">
+                        <div data-abide-error class="sr-only" style="display: none;">
+                            Alguns erros foram encontrados.
+                        </div>
+                    <div class="input-group newsletter">
+                        <input class="input-group-field" required type="email" placeholder="Receba atualizações">
+                        <div class="input-group-button">
+                            <button type="submit" class="button"><span class="dashicons dashicons-arrow-right-alt2"></span></button>
+                        </div>
+                    </div>
+
+                    <?php endif; ?>
 
                 </div>
 

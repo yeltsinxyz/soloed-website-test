@@ -18,10 +18,10 @@ Baseado no layout ([Figma](https://www.figma.com/file/U6mV5uN8OtSMaVZcWcQc9g/Tes
 - [x] O usuário pode editar o texto do "Sobre Nós"
 - [x] O usuário pode adicionar, editar e excluir os "Serviços/Qualidades"
 - [x] O usuário pode adicionar, editar e excluir os "Depoimentos"
-- [ ] O usuário pode adicionar e remover itens dos menu principal e do menu no rodapé
+- [x] O usuário pode adicionar e remover itens dos menu principal e do menu no rodapé
 - [x] O usuário pode adicionar e remover os links das redes sociais
 - [x] O usuário pode editar o telefone e o email do rodapé
-- [ ] O formulário de Newsletter deve gravar os emails informados com validação de formato e campo em branco.
+- [x] O formulário de Newsletter deve gravar os emails informados com validação de formato e campo em branco.
 
 #### Pré-requisitos
 
@@ -34,8 +34,7 @@ Baseado no layout ([Figma](https://www.figma.com/file/U6mV5uN8OtSMaVZcWcQc9g/Tes
 
 # SoloED_Landing Page
 
-O primeiro passo é instalar o plugin Advanced Custom Fields PRO (acompanha o arquivo zipado no e-mail). Para subir imagem .svg, é recomendado instalar um plugin adequado.
-
-Em seguida, criar uma página Home, e definir como página inicial em Configurações.
-
-Depois é só preencher os campos com as informações desejadas. Ou usar o arquivo de backup fornecido junto com o .zip. 
+1. Instalar o Advanced Custom Fields PRO (acompanha arquivo zipado no e-mail);
+2. Preencher as informações OU usar o arquivo de recuperação ou
+3. Fazer o uso do arquivo do LOCAL enviado no e-mail;
+4. Preencher as opções do tema no back-end do WordPress.

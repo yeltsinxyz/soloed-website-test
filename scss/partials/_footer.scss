@@ -22,6 +22,52 @@ footer {
         padding-bottom: 65px;
     }
 
+    .newsletter {
+
+        .input-group-field {
+            border-top-left-radius: 6px;
+            border-bottom-left-radius: 6px;
+            border: 1px solid rgba(0, 0, 124, 0.2);
+            padding: 24px 16px;
+
+            &::placeholder{
+                color: rgba(10, 20, 47, 0.65);
+            }
+
+        }
+
+        .button {
+            background-color: #57B894;
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+            transition: all 0.5s 0s ease-in-out;
+            padding: 24px;
+
+            &:hover {
+                background-color: #3f8d70;
+            }
+
+        }
+
+    }
+
+    .menu-footer ul {
+
+        a {
+            color: #b6b6bd;
+            transition: all 0.5s 0s ease-in-out;
+            font-size: 16px;
+            line-height: 21px;
+            margin-bottom: 32px;
+
+            &:hover {
+                color: #FFF;
+            }
+
+        }
+
+    }
+
     .footer-copyright {
         padding-top: 35px;
     }
@@ -60,6 +106,7 @@ footer {
             vertical-align: middle;
             padding-top: 13px;
             padding-left: 14px;
+            transition: all 0.5s 0s ease-in-out;
 
             .dashicons {
                 color: #FFF;

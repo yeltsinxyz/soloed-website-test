@@ -38,13 +38,13 @@
 
             <div class="cell small-9">
 
-                <ul class="menu align-right">
-                    <li><a href="">Início</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Serviços</a></li>
-                    <li><a href="">Depoimentos</a></li>
-                    <li><a href="">Contato</a></li>
-                </ul>
+                <?php
+                wp_nav_menu( array(
+                    'menu'  =>  'header',
+                    'menu_class'    =>  'menu align-right',
+                    'container' => false,
+                ) );
+                ?>
 
             </div>
 
