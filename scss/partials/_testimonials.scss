@@ -11,6 +11,14 @@
         }
     }
 
+    .swiper-slide {
+
+    }
+
+    .swiper-wrapper {
+        padding-bottom: 80px;
+    }
+
     .depoimentos-single {
         background-color: #FFF;
         box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
@@ -23,10 +31,20 @@
             background-color: #E5E5E5;
         }
 
-        p {
+        .frase {
             font-size: 16px;
             line-height: 26px;
             color: #2F2E41;
+
+            &:before {
+                display: inline-block;
+                content: ' ';
+                background-image: url('../img/quote.svg');
+                background-size: 18px 18px;
+                background-repeat: no-repeat;
+                height: 20px;
+                width: 28px;
+            }
         }
 
         .meta {

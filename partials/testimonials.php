@@ -15,26 +15,39 @@
 
             </div>
 
-            <div class="cell small-12 swiper depoimentos-lista">
+            <div class="cell small-12 depoimentos-lista">
 
-                <div class="grid-x grid-margin-x swiper-wrapper">
+                <div class="grid-x grid-margin-x">
 
-                    <?php foreach($lista_depoimentos as $lista_depoimentos) { ?>
-                    <div class="cell small-12 large-6 depoimentos-single swiper-slide">
+                    <div class="swiper">
 
-                        <p><?php echo $lista_depoimentos["frase"]; ?></p>
+                        <div class="swiper-wrapper">
 
-                        <div class="grid-x">
-                            <div class="cell shrink">
-                                <img src="<?php echo esc_url( $lista_depoimentos['foto']['url'] ); ?>" alt="<?php echo esc_attr( $lista_depoimentos['foto']['alt'] ); ?>">
+                            <?php foreach($lista_depoimentos as $lista_depoimentos) { ?>
+                            <div class="swiper-slide">
+
+                                <div class="cell small-12 large-6 depoimentos-single">
+
+                                    <p class="frase"><?php echo $lista_depoimentos["frase"]; ?></p>
+
+                                    <div class="grid-x">
+                                        <div class="cell shrink">
+                                            <img src="<?php echo esc_url( $lista_depoimentos['foto']['url'] ); ?>" alt="<?php echo esc_attr( $lista_depoimentos['foto']['alt'] ); ?>">
+                                        </div>
+                                        <div class="cell auto">
+                                            <p class="meta"><?php echo $lista_depoimentos["nome_profissao"]; ?></p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
                             </div>
-                            <div class="cell auto">
-                                <p class="meta"><?php echo $lista_depoimentos["nome_profissao"]; ?></p>
-                            </div>
+                            <?php } ?>
+
                         </div>
+                        <div class="swiper-pagination"></div>
 
                     </div>
-                    <?php } ?>
 
                 </div>
 
