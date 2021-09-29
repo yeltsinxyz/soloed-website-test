@@ -66,6 +66,9 @@ function soloed_scripts() {
 	wp_register_script( 'foundation', get_template_directory_uri() . '/node_modules/foundation-sites/dist/js/foundation.js', false, false, true );
 	wp_enqueue_script( 'foundation' );
 
+    wp_register_script( 'glidejscss', get_template_directory_uri() . '/node_modules/@glidejs/glide/dist/glide.min.js', false, false, true );
+    wp_enqueue_script( 'glidejscss' );
+
 	wp_register_script( 'app', get_template_directory_uri() . '/js/app.js', false, false, true );
 	wp_enqueue_script( 'app' );
 
@@ -77,6 +80,9 @@ function soloed_styles() {
 
 	wp_register_style( 'app', get_template_directory_uri() . '/css/app.css', false, false );
 	wp_enqueue_style( 'app' );
+
+    wp_register_style( 'glidejs', get_template_directory_uri() . '/node_modules/@glidejs/glide/dist/css/glide.core.min.css', false, false );
+    wp_enqueue_style( 'glidejs' );
 
 }
 add_action( 'wp_enqueue_scripts', 'soloed_styles' );

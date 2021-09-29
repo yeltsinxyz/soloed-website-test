@@ -24,7 +24,7 @@
                     <?php foreach($lista_servicos as $lista_servicos) { ?>
                     <div class="cell small-12 large-4 service-box">
 
-                    <img src="<?php echo esc_url( $lista_servicos['icone']['url'] ); ?>" alt="<?php echo esc_attr( $lista_servicos['icone']['alt'] ); ?>">
+                        <img src="<?php echo esc_url( $lista_servicos['icone']['url'] ); ?>" alt="<?php echo esc_attr( $lista_servicos['icone']['alt'] ); ?>">
 
                         <h3><?php echo $lista_servicos["titulo"]; ?></h3>
 

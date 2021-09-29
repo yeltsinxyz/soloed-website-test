@@ -17,7 +17,7 @@ Baseado no layout ([Figma](https://www.figma.com/file/U6mV5uN8OtSMaVZcWcQc9g/Tes
 - [x] O usuário pode editar a imagem e os textos da primeira sessão.
 - [x] O usuário pode editar o texto do "Sobre Nós"
 - [x] O usuário pode adicionar, editar e excluir os "Serviços/Qualidades"
-- [ ] O usuário pode adicionar, editar e excluir os "Depoimentos"
+- [x] O usuário pode adicionar, editar e excluir os "Depoimentos"
 - [ ] O usuário pode adicionar e remover itens dos menu principal e do menu no rodapé
 - [ ] O usuário pode adicionar e remover os links das redes sociais
 - [ ] O usuário pode editar o telefone e o email do rodapé
